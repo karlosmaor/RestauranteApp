@@ -7,7 +7,7 @@ const api = require('../routes')
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
-app.use('/domicilios',function (req, res, next) {
+app.use('/restaurante',function (req, res, next) {
 
     // Website you wish to allow to connect
     res.setHeader('Access-Control-Allow-Origin', '*');

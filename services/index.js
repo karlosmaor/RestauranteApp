@@ -12,7 +12,6 @@ function createToken(user){
   }
 
   return jwt.encode(payLoad,config.SECRET_TOKEN)
-
 }
 
 function decodeToken(token){
